@@ -1,0 +1,749 @@
+body{
+    margin: 0px;
+    background-color: #F8F0E5;
+}
+
+.website {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+}
+
+.link {
+    list-style-type: none;
+}
+
+.start {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    width: 90%;
+    position: relative;
+    left: 5%;
+    border-bottom: 1px solid #3F2305;
+}
+
+.buttons {
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.link {
+    font-size: 1.3rem;
+    font-weight: bolder;
+    color: #3F2305;
+}
+
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 400px;
+    margin-top: 20px;
+    position: relative;
+    left: 10%;
+}
+
+.text {
+    margin: 0px;
+    color: #3F2305;
+    text-align: center;
+}
+
+.head {
+    font-size: 7rem;
+    margin-bottom: 30px;
+    line-height: 7.5rem;
+}
+
+.subhead {
+    font-size: 3.5rem;
+    line-height: 4rem;
+}
+
+cite {
+    font-style: normal;
+    text-decoration: underline;
+}
+
+.projects {
+    background-color: #EADBC8;
+    width: 100%;
+    height: 1525px;
+    margin-top: 20px;
+}
+
+.projecttitle {
+    height: 120px;
+}
+
+.projecttitle h2 {
+    color: #3F2305;
+    text-align: center; 
+    font-size: 3rem;
+    margin: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.projectpic {
+    width: 50%;
+}
+
+.responsivelist {
+    height: 380px;
+} 
+
+.responsivelist .projectpic img {
+    width: 500px;
+    height: 380px;   
+    margin-left: 20%;  
+    box-shadow: 10px 10px 10px #3F2305;
+    border-radius: 50px;
+}
+
+.mondrianlist {
+    height: 500px;
+} 
+
+.mondrianlist .projectpic img {
+    width: 500px;
+    height: 500px;
+    margin-left: 20%;  
+    box-shadow: 10px 10px 10px #3F2305;
+    border-radius: 50px;
+}
+
+.tindoglist {
+    height: 300px;
+} 
+
+.tindoglist .projectpic img {
+    width: 500px;
+    height: 300px;   
+    margin-left: 20%;  
+    box-shadow: 10px 10px 10px #3F2305;
+    border-radius: 50px;
+}
+
+.projecttext {
+    width: 50%;
+}
+
+.projtitle {
+    width: 70%;
+    font-size: 2rem;
+    margin: 0px;
+    margin-left: 10%;  
+}
+
+.projdescription {
+    width: 70%;
+    font-size: 1.5rem;
+    margin-left: 10%;  
+    line-height: 2rem;
+}
+
+.hyperlink {
+    width: 70%;
+    margin-left: 10%;  
+}
+
+.about {
+    background-color:  #F8F0E5;
+    width: 100%;
+    height: 750px;
+    margin-top: 20px;
+}
+
+.abouttitle {
+    height: 70px;
+    width: 100%;
+}
+
+.abouttitle h2 {
+    color: #3F2305;
+    text-align: center; 
+    font-size: 3rem;
+    margin: 0px;
+    margin-top: 30px;
+}
+
+.aboutpage {
+    height: 600px;
+    margin-top: 0px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.aboutpic {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 320px;
+}
+
+.aboutpic img {
+    width: 300px;
+    height: 310px;
+}
+
+.abouttext {
+    width: 100%;
+}
+
+.abouttext h2 {
+    width: 70%;
+    font-size: 2rem;
+    margin: 0px;
+    margin-left: 15%; 
+    text-align: center;
+}
+
+.abouttext p {
+    width: 70%;
+    font-size: 1.5rem;
+    margin: 0px;
+    margin-left: 15%; 
+    text-align: center;
+    line-height: 2rem;
+}
+
+.connected {
+    width: 90%;
+    margin-top: 20px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    left: 5%;
+    border-top: 1px solid #3F2305;
+}
+
+
+@media (max-width: 1230px) {
+    .list .projectpic img {
+        margin-left: 10%;
+    }
+
+    .projtitle {
+        margin-left: 15%;
+        width: 70%;
+    }
+
+    .projdescription {
+        margin-left: 15%;
+        width: 70%;
+    }
+
+    .hyperlink {
+        margin-left: 15%;
+        width: 70%;
+    }
+
+    .aboutpic {
+        height: 260px;
+    }
+
+    .aboutpic img {
+        width: 250px;
+        height: 260px;
+    }
+
+    .aboutpage {
+        height: 550px;
+    }
+
+    .about {
+        height: 700px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .list .projectpic img {
+        margin-left: 10%;
+    }
+
+    .projtitle {
+        margin-left: 20%;
+        width: 70%;
+    }
+
+    .projdescription {
+        margin-left: 20%;
+        width: 70%;
+    }
+
+    .hyperlink {
+        margin-left: 20%;
+        width: 70%;
+    }
+
+    .responsivelist .projectpic img {
+        width: 450px;
+        height: 340px;   
+    }
+    
+    .mondrianlist .projectpic img {
+        width: 450px;
+        height: 460px;
+    }
+
+    .tindoglist .projectpic img {
+        width: 450px;
+        height: 280px;   
+    }
+
+    .aboutpage {
+        height: 600px;
+    }
+
+    .about {
+        height: 700px;
+    }
+
+    .abouttext{
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 900px) {
+    .logo img {
+        width: 55px;
+        height: 55px;
+    }
+
+    .head {
+        font-size: 6rem;
+    }
+
+    .subhead {
+        font-size: 3rem;
+    }
+
+    .projecttitle h2 {
+        font-size: 2.75rem;
+    }
+
+    .abouttitle h2 {
+        font-size: 2.75rem;
+    }
+
+    .projtitle {
+        font-size: 1.75rem;
+        line-height: 2rem;
+    }
+    
+    .projdescription {
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+    }
+
+    .responsivelist .projectpic img {
+        width: 400px;
+        height: 310px;   
+    }
+    
+    .mondrianlist .projectpic img {
+        width: 400px;
+        height: 420px;
+    }
+
+    .tindoglist .projectpic img {
+        width: 400px;
+        height: 250px;   
+    }
+
+    .list .projectpic img {
+        margin-left: 10%;
+    }
+
+    .projtitle {
+        margin-left: 15%;
+        width: 70%;
+    }
+
+    .projdescription {
+        margin-left: 15%;
+        width: 70%;
+    }
+
+    .hyperlink {
+        margin-left: 15%;
+        width: 70%;
+    }
+
+    .list {
+        margin-bottom: 40px;
+    }
+
+    .projects {
+        height: 1380px;
+    }
+
+    .abouttext h2 {
+        font-size: 1.75rem;
+        line-height: 2rem;
+    }
+    
+    .abouttext p {
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+    }
+
+    .aboutpage {
+        height: 420px;
+    }
+
+    .aboutpic {
+        height: 210px;
+    }
+
+    .aboutpic img {
+        width: 200px;
+        height: 210px;
+    }
+
+    .connected {
+        margin-top: 80px; 
+    }
+
+    .about {
+        height: 500px;
+    }
+}
+
+@media (max-width: 800px) {
+    .intro {
+        height: 350px;
+    }
+
+    .logo img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .head {
+        font-size: 5.5rem;
+        line-height: 6rem;
+    }
+
+    .subhead {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+
+    .projecttitle h2 {
+        font-size: 2.25rem;
+    }
+
+    .projects {
+        height: 1100px;
+    }
+
+    .list {
+        padding-bottom: 80px;
+    }
+
+    .responsivelist {
+        height: 230px;
+    }
+
+    .responsivelist .projectpic img {
+        width: 300px;
+        height: 230px;   
+    }
+
+    .mondrianlist {
+        height: 320px;
+    }
+
+    .mondrianlist .projectpic img {
+        width: 300px;
+        height: 320px;
+    }
+
+    .tindoglist {
+        height: 200px;
+    }
+
+    .tindoglist .projectpic img {
+        width: 300px;
+        height: 200px;   
+    }
+
+    .list .projectpic img {
+        margin-left: 15%;
+    }
+
+    .projtitle {
+        margin-left: 15%;
+        width: 70%;
+    }
+
+    .projdescription {
+        margin-left: 15%;
+        width: 70%;
+    }
+
+    .hyperlink {
+        margin-left: 15%;
+        width: 70%;
+    }
+
+    .projtitle {
+        font-size: 1.50rem;
+    }
+    
+    .projdescription {
+        font-size: 1rem;
+    }
+
+    .list {
+        margin-bottom: 1px;
+    }
+
+    .abouttext h2 {
+        font-size: 1.75rem;
+    }
+    
+    .abouttext p {
+        font-size: 1.25rem;
+    }
+
+    .abouttext h2 {
+        font-size: 1.50rem;
+    }
+    
+    .abouttext p {
+        font-size: 1rem;
+    }
+
+    .connected {
+        margin-top: 30px;
+    }
+
+    .aboutpic {
+        height: 200px;
+    }
+
+    .aboutpic img {
+        width: 190px;
+        height: 200px;
+    }
+
+    .aboutpage {
+        height: 450px;
+    }
+}
+
+@media (max-width: 700px) {
+    .intro {
+        height: 300px;
+    }
+
+    .logo img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .link {
+        font-size: 1rem;
+    }
+
+    .buttons {
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .am {
+        margin-left: 30px;
+    }
+
+    .head {
+        font-size: 5rem;
+        line-height: 5.5rem;
+    }
+
+    .subhead {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .projects {
+        height: 1450px;
+    }
+
+    .projecttitle {
+        height: 100px;
+    }
+
+    .projecttitle h2 {
+        font-size: 2rem;
+    }
+
+    .abouttitle h2 {
+        font-size: 2rem;
+    }
+
+    .projectpic {
+        width: 100%;
+    }
+
+    .projecttext {
+        width: 100%;
+    }
+    
+    .projectpic {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .responsivelist {   
+        height: 350px;
+    }
+
+    .responsivelist .projectpic img {
+        width: 300px;
+        height: 230px;   
+        margin-left: 0px;
+        margin-bottom: 30px;
+    }
+
+    .mondrianlist {
+        height: 440px;
+    }
+
+    .mondrianlist .projectpic img {
+        width: 300px;
+        height: 320px;
+        margin-left: 0px;
+        margin-bottom: 30px;
+    }
+
+    .tindoglist {
+        height: 320px;
+    }
+
+    .tindoglist .projectpic img {
+        width: 300px;
+        height: 200px; 
+        margin-left: 0px; 
+        margin-bottom: 30px; 
+    }
+
+    .projtitle {
+        margin-left: 23%;
+        width: 65%;
+    }
+
+    .projdescription {
+        margin-left: 23%;
+        width: 65%;
+    }
+
+    .hyperlink {
+        margin-left: 23%;
+        width: 65%;
+    }
+
+    .projtitle {
+        font-size: 1.25rem;
+    }
+    
+    .projdescription {
+        font-size: 1rem;
+    }
+
+    .abouttext h2 {
+        font-size: 1.25rem;
+    }
+    
+    .abouttext p {
+        font-size: 1rem;
+    }
+
+    .aboutpage {
+        height: 480px;
+    }
+
+    .abouttitle {
+        height: 60px;
+    }
+
+    .aboutpic {
+        height: 180px;
+    }
+
+    .aboutpic img {
+        width: 170px;
+        height: 180px;
+    }
+}
+
+@media (max-width: 490px) {
+    .intro {
+        height: 445px;
+    }
+
+    .responsivelist {   
+        height: 360px;
+    }
+
+    .mondrianlist {
+        height: 450px;
+    }
+
+    .tindoglist {
+        height: 330px;
+    }
+
+    .projects {
+        height: 1490px;
+    }
+
+    .projtitle {
+        margin-left: 20%;
+        width: 65%;
+    }
+
+    .projdescription {
+        margin-left: 20%;
+        width: 65%;
+    }
+
+    .hyperlink {
+        margin-left: 20%;
+        width: 65%;
+    }
+
+    .aboutpage {
+        height: 550px;
+    }
+}
